@@ -189,9 +189,10 @@ This staged approach enables practical deployment while respecting the realities
 
 By separating **physical feasibility** from **statistical process realization**, the framework avoids overfitting to narrow operating regimes and remains adaptable to future materials, tools, and fabs.
 
-This strategy positions the hybrid GNN-PINN surrogate as a **general-purpose interface modeling and optimization framework**, rather than a model tied to a single dataset or manufacturing line.
+This strategy positions the hybrid GNN-PINN surrogate as a **general-purpose interface modeling and optimization framework**, although a customized model could be tied to a single manufacturing process.
 
 ---
+
 ## Real-World Data and Future Extensions
 
 ### Extension to Other High-k Dielectrics
