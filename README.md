@@ -56,13 +56,13 @@ Importantly, the hybrid GNN-PINN framework itself is **not material-specific**; 
 ├── Baseline Models/XGBoost-ANN_v3.ipynb                                 # Baseline model notebook
 ├── Master Encoder/phase1_encoder_Master.pt                              # Master encoder
 |   └── Encoder Candidates/                                              # Prospective 5 encoder search run
-├── Primary Models/Hybrid_GNN-PINN_v10.ipynb                             # Hybrid model notebook
-|   └── Synthetic Dataset/generate_dataset_constrained_rev4.ipynb        # Synthetic dataset generation notebook
-|       └── Alternate/generate_dataset_augmented_rev3.ipynb              # Synthetic dataset augmentation notebook
+├── Primary Models/Hybrid_GNN-PINN_v10.ipynb                             # Hybrid model notebook (withheld)
+|   └── Synthetic Dataset/generate_dataset_constrained_rev4.ipynb        # Synthetic dataset generation notebook (withheld)
+|       └── Alternate/generate_dataset_augmented_rev3.ipynb              # Synthetic dataset augmentation notebook (withheld)
 ├── Synthetic Dataset/SynthALD_Si_2025_v1.csv                            # Synthetic dataset .csv file
 |   └── Alternate/SynthALD_Si_2025_v2.csv                                # Synthetic dataset augmented .csv file (not used)
-├── Thesis/Hybrid Graph Neural Network and Physics-Informed Neural Network for Predicting Interface Dynamics in Semiconductor Thin Film Deposition.pdf
-└── README.md             # Project documentation
+├── Thesis/                                                              # Completed thesis .pdf file
+└── README.md                                                            # Project documentation
 ```
 
 ---
