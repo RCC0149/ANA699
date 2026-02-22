@@ -83,7 +83,7 @@ This approach balances realism with tractability while avoiding dependence on pr
 
 ### 2. Baseline Model Training
 
-Before introducing physics constraints, multiple **purely data-driven baseline models** were trained on the same dataset, including:
+Before introducing physics constraints, two **purely data-driven baseline models** were trained on the same dataset, including:
 
 * Artificial Neural Networks (ANNs)
 * Gradient-boosted decision trees (XGBoost)
@@ -190,6 +190,31 @@ This staged approach enables practical deployment while respecting the realities
 By separating **physical feasibility** from **statistical process realization**, the framework avoids overfitting to narrow operating regimes and remains adaptable to future materials, tools, and fabs.
 
 This strategy positions the hybrid GNN-PINN surrogate as a **general-purpose interface modeling and optimization framework**, rather than a model tied to a single dataset or manufacturing line.
+
+---
+## Real-World Data and Future Extensions
+
+### Extension to Other High-k Dielectrics
+
+Future work should extend the framework to additional high-k dielectric materials, including:
+
+* Hafnium dioxide (HfO₂)
+* Zirconium dioxide (ZrO₂)
+* Lanthanum-based and mixed-oxide dielectrics
+
+These materials introduce more complex diffusion mechanisms, phase stability concerns, and defect-mediated transport, making them ideal candidates for validating the generality of the GNN-PINN approach once sufficient data is available.
+
+---
+
+## Integration of Real-World Process Data
+
+The framework is structured to incorporate measured process and metrology data, including:
+
+* Expanded ALD parameter sets (purge durations, precursor flow rates, plasma power)
+* In-situ signals (optical emission spectroscopy, ellipsometry)
+* Ex-situ characterization (SIMS, TEM-derived interface profiles)
+
+Such integration supports transition from offline optimization toward deployable digital-twin systems.
 
 ---
 
